@@ -11,6 +11,7 @@ namespace Football_Betting.Models
             this.Towns = new HashSet<Town>();
         }
         public int CountryId { get; set; }
+
         public string Name { get; set; }
 
         public ICollection<Town> Towns { get; set; }

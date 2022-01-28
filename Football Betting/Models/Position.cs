@@ -11,6 +11,7 @@ namespace Football_Betting.Models
             this.Players = new HashSet<Player>();
         }
         public int PositionId { get; set; }
+
         public string Name { get; set; }
 
         public ICollection<Player> Players { get; set; }

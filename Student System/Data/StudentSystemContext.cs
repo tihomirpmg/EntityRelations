@@ -7,11 +7,12 @@
     {
         public StudentSystemContext()
         {
+
         }
 
-        public StudentSystemContext(DbContextOptions<StudentSystemContext> options)
-            : base(options)
+        public StudentSystemContext(DbContextOptions<StudentSystemContext> options): base(options)
         {
+
         }
 
         public DbSet<Student> Students { get; set; }
